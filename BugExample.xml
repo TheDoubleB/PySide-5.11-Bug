@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<typesystem package="BugExample">
+  <load-typesystem name="typesystem_core.xml" generate="no"/>
+  <object-type name="BugExampleClass">
+    <include file-name="api/BugExample.h" location="global"/>
+    <object-type name="Vector3f">
+	  <include file-name="api/BugExample.h" location="global"/>
+    </object-type>
+  </object-type>
+</typesystem>
